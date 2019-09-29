@@ -1,0 +1,101 @@
+header {
+    background-color: #004333;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    padding: 10px 0 0 10px;
+}
+
+header nav {
+    background-color: #668844;
+    font-family: 'PT Serif', serif;
+    padding: 10px 5px 10px 5px;
+}
+
+header nav a {
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #ffa500;
+}
+
+
+#profile {
+    font-size: 36px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+main section h2 {
+    font-size: 18px;
+}
+
+figure {
+    border: 3px solid #668844;
+    text-align: center;
+    background-color: #ececbd;
+    padding: 0 0 10px 0;
+}
+
+figure div {
+    background-image: url("images/header-background.png");
+    text-align: center;
+    color: #fff;
+    padding: 5px 0 5px 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img {
+    margin: 15px 0 0 0;
+    border: 2px dashed #004333;
+}
+
+.section1 {
+    margin: 20px 40px 20px 40px;
+}
+#documents {
+    background-color: #668844;
+    color:#fff;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    padding: 5px 0 5px 10px;
+}
+
+#employees {
+    padding: 5px 0 5px 10px;
+}
+
+li a{
+    color: #668844;
+}
+
+li a:hover {
+    color: #ffa500;
+}
+
+#employees {
+    background-color: #668844;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #004333;
+}
+
+footer p {
+    color:#fff;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    font-style: none;
+}
+
