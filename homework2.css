@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     background-color: #004333;
 }
@@ -101,22 +104,29 @@ footer p {
 
 
 table { 
-    border: 3px solid red; 
-    border-collapse: collapse;
+    border: solid 1pt #668844;
     margin: 15px 0 15px 15px;
+    border: solid 2pt #668844;
+    border-collapse: collapse;
 }
-th,td { 
-    border: 2px dotted green;
-}
-caption { 
-    font-style: italic; 
-    display: none;
+table th {
+    text-align: center;
+    color: #ccc;
+    background-color: #668844;
+    border: solid 1pt #ccc;
+    padding: 3px;
 }
 
-tbody tr:nth-child(even) { 
+table td {
+    border: solid 1pt #668844;
+    padding: 3px;
+}
+
+tbody tr:nth-child(odd) { 
     background-color: #ccc; 
 }
 
 tbody tr:hover { 
-    background-color: orange ;
+    background-color: #668844 ;
+    color: black;
 }
