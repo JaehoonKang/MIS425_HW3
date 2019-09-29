@@ -99,3 +99,24 @@ footer p {
     font-style: none;
 }
 
+
+table { 
+    border: 3px solid red; 
+    border-collapse: collapse;
+    margin: 15px 0 15px 15px;
+}
+th,td { 
+    border: 2px dotted green;
+}
+caption { 
+    font-style: italic; 
+    display: none;
+}
+
+tbody tr:nth-child(even) { 
+    background-color: #ccc; 
+}
+
+tbody tr:hover { 
+    background-color: orange ;
+}
