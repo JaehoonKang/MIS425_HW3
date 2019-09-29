@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <form action="#" method="POST">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="My Placeholder" required>
+            </p>
+            <p>
+                <label for="docs">Documents:</label>
+                <select name="documents" id="docs">
+                    <option value=""></option>
+                    <option value="1">Option 1</option>
+                    <option value="2" selected>Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                </select>
+            </p>
+            <p>
+                <input type="radio" name="yes_no" value="y">Yes 
+                <input type="radio" name="yes_no" value="n" checked>No
+                <input type="radio" name="yes_no" value="m">Maybe
+            </p>
+            <p>
+                <input type="checkbox" name="check1" value="1">Checkbox 1
+                <input type="checkbox" name="check1" value="2">Checkbox 2
+                <input type="checkbox" name="check1" value="3" checked>Checkbox 3
+            </p>
+            <p>
+                <textarea name="lots_of_text" cols="10">This is a test</textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Form">
+            </p>
+            <p>
+                <button name="some_button" value="2">Some Other Button</button>
+            </p>
+        </form>
+        <p>
+            <input type="text" name="outside" value="I am outside">
+        </p>
+    </body>
+</html>
